@@ -14,9 +14,10 @@ public class FizzBuzz {
     public String getFizzBuzz(int num) {
         if (num % 3 == 0) {
             return "Fizz";
-        } /*if (num % 5 == 0) {
+        }
+        if (num % 5 == 0) {
             return "Buzz";
-        }*/ else {
+        } else {
             return Integer.toString(num);
         }
 
