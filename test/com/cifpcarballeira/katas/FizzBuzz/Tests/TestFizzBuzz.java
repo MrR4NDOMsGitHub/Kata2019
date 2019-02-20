@@ -66,4 +66,12 @@ public class TestFizzBuzz {
         
     }
     
+       @Test
+    public void test13devuelveFizz(){//porque contiene un 3
+        FizzBuzz fb = new FizzBuzz();
+        String result = fb.getFizzBuzz(13);
+        assertEquals("Fizz",result);
+        
+    }
+    
 }
